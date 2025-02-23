@@ -111,6 +111,8 @@ for i in range(3):
 instr = initialize_VPN(area_input=['complete rotation'],skip_settings=1)
 
 for i in range(3):
+    subprocess.run(["sh" , "-c", "nordvpn status"])
     rotate_VPN(instr)
-    print('\nDo whatever you want here (e.g. scraping). Pausing for 10 seconds...\n')
-    time.sleep(10)
+    
+    print('\nDo whatever you want here (e.g. scraping). Pausing for 1hr ...\n')
+    time.sleep(3200)
