@@ -13,7 +13,7 @@ instructions = initialize_VPN() #this will guide you through a step-by-step guid
 for i in range(3):
     rotate_VPN(instructions) #refer to the instructions variable here
     now = datetime.datetime.now()
-    print(now.strftime("%Y-%m-%d %H:%M:%S"'\nDo whatever you want here (e.g.scraping). Pausing for 1hour ...\n')
+    print(now.strftime("%Y-%m-%d %H:%M:%S"'\nDo whatever you want here (e.g.scraping). Pausing for 1hour ...\n'))
     time.sleep(3600)
 
 # [2] if you'd like to skip the step-by-step menu (because you want to automate your script fully without any required human intervention, use the area_input parameter
