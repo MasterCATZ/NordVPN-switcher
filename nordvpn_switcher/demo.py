@@ -1,7 +1,7 @@
 from nordvpn_switcher import initialize_VPN,rotate_VPN
 import time
 import datetime
-
+import subprocess
 ##############
 ## WINDOWS ###
 ##############
