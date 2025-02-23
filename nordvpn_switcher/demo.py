@@ -105,7 +105,7 @@ for i in range(3):
 ## LINUX #####
 ##############
 
-# [1] Perform a complete rotation and skip the settings menu for complete automation
+# [1] Perform a countries rotation and skip the settings menu for complete automation
 # the 'skip settings' parameter is only available for Linux users (since setting additional settings such as whitelisting ports is only available on Linux)
 
 instr = initialize_VPN(area_input=['random countries 60'],skip_settings=1)
