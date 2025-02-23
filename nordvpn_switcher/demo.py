@@ -108,7 +108,7 @@ for i in range(3):
 # [1] Perform a complete rotation and skip the settings menu for complete automation
 # the 'skip settings' parameter is only available for Linux users (since setting additional settings such as whitelisting ports is only available on Linux)
 
-instr = initialize_VPN(area_input=['complete rotation'],skip_settings=1)
+instr = initialize_VPN(area_input=['random countries 60'],skip_settings=1)
 
 for i in range(3):
     subprocess.run(["sh" , "-c", "nordvpn status"])
