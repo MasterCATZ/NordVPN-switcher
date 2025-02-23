@@ -113,6 +113,7 @@ instr = initialize_VPN(area_input=['random countries 60'],skip_settings=1)
 for i in range(3):
     subprocess.run(["sh" , "-c", "nordvpn status"])
     rotate_VPN(instr)
-    
+    now = datetime.datetime.now()
+    print(now.strftime("%Y-%m-%d %H:%M:%S"))
     print('\nDo whatever you want here (e.g. scraping). Pausing for 1hr ...\n')
     time.sleep(3200)
